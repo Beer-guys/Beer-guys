@@ -5438,11 +5438,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 --- !u!1 &1463777342
 =======
 --- !u!1 &1467790066
 >>>>>>> 95d195f727a32909b789f87dcfcbeee844a03840
+=======
+--- !u!1 &1477572577
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5450,6 +5454,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   - component: {fileID: 1463777344}
   - component: {fileID: 1463777343}
@@ -5461,26 +5466,40 @@ GameObject:
   m_Layer: 0
   m_Name: Kolo2
 >>>>>>> 95d195f727a32909b789f87dcfcbeee844a03840
+=======
+  - component: {fileID: 1477572579}
+  - component: {fileID: 1477572578}
+  m_Layer: 0
+  m_Name: srakca
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 --- !u!212 &1463777343
 =======
 --- !u!212 &1467790067
 >>>>>>> 95d195f727a32909b789f87dcfcbeee844a03840
+=======
+--- !u!212 &1477572578
+>>>>>>> Stashed changes
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   m_GameObject: {fileID: 1463777342}
 =======
   m_GameObject: {fileID: 1467790066}
 >>>>>>> 95d195f727a32909b789f87dcfcbeee844a03840
+=======
+  m_GameObject: {fileID: 1477572577}
+>>>>>>> Stashed changes
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -5526,16 +5545,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 --- !u!4 &1463777344
 =======
 --- !u!4 &1467790068
 >>>>>>> 95d195f727a32909b789f87dcfcbeee844a03840
+=======
+--- !u!4 &1477572579
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   m_GameObject: {fileID: 1463777342}
   serializedVersion: 2
@@ -5549,12 +5573,22 @@ Transform:
   m_LocalPosition: {x: -5.34, y: -0.68, z: 0.16992179}
   m_LocalScale: {x: 0.116, y: 0.8995, z: 1}
 >>>>>>> 95d195f727a32909b789f87dcfcbeee844a03840
+=======
+  m_GameObject: {fileID: 1477572577}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.19, y: -0.19, z: 0.01433724}
+  m_LocalScale: {x: 0.3347, y: 0.6731, z: 1}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 =======
 >>>>>>> parent of 4a72cf8 (particle sracky)
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1482899525
 GameObject:
   m_ObjectHideFlags: 0
@@ -6285,6 +6319,7 @@ SceneRoots:
 <<<<<<< HEAD
   - {fileID: 1344190033}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   - {fileID: 1463777344}
 =======
@@ -6297,3 +6332,6 @@ SceneRoots:
 =======
 >>>>>>> parent of 4a72cf8 (particle sracky)
 >>>>>>> 7f690fcf295b878b45be15297f04073325f591e5
+=======
+  - {fileID: 1477572579}
+>>>>>>> Stashed changes
