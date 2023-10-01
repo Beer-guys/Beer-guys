@@ -522,6 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1994615456}
   smoothSpeed: 5
+<<<<<<< HEAD
 --- !u!1 &1344190030
 GameObject:
   m_ObjectHideFlags: 0
@@ -5465,6 +5466,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 4a72cf8 (particle sracky)
 --- !u!1 &1482899525
 GameObject:
   m_ObjectHideFlags: 0
@@ -6192,9 +6195,12 @@ SceneRoots:
   - {fileID: 271513114}
   - {fileID: 76556372}
   - {fileID: 1482899529}
+<<<<<<< HEAD
   - {fileID: 1344190033}
 <<<<<<< HEAD
   - {fileID: 1463777344}
 =======
   - {fileID: 1467790068}
 >>>>>>> 95d195f727a32909b789f87dcfcbeee844a03840
+=======
+>>>>>>> parent of 4a72cf8 (particle sracky)
