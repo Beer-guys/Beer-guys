@@ -536,7 +536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1994615456}
   smoothSpeed: 5
-  LoopSpeed: 1
+  LoopSpeed: 0.05
   BackgroundRenderer: {fileID: 371282033}
 --- !u!1 &519420028
 GameObject:
