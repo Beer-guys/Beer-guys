@@ -620,7 +620,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a3e5a789c02e237428355888ee0c397b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72cbc6f1fb992464bbb1ab6425c4b92e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -720,19 +720,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1179727892}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2019275698}
-        m_TargetAssemblyTypeName: GameStart, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1179727892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -753,7 +741,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a3e5a789c02e237428355888ee0c397b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6747d531b5cfd284cb65cbab1ea703ce, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -886,7 +874,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a3e5a789c02e237428355888ee0c397b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 36725f67c953b894f9fbcc16e5b083cd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
