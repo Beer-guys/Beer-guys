@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     public float moveSpeed = 5f; // Rychlost pohybu hráèe
     public float jumpForce = 10f; // Síla skoku
     public float groundCheckRadius = 0.2f; // Polomìr kontrolního kruhu pro ground check
@@ -17,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<Collider2D>();
+        rb.freezeRotation = true; // Nastavíme fixedRotation na true
     }
 
     private void Update()
@@ -60,6 +60,4 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce); // Pøidáme vertikální rychlost pro provedení skoku
     }
-
-
 }
