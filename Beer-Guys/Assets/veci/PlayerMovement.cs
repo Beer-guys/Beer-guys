@@ -8,9 +8,12 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 10f; // Síla skoku
     public float groundCheckRadius = 0.2f; // Polomìr kontrolního kruhu pro ground check
     public LayerMask groundLayer; // Vrstva pro ground check
+    public Animator animator; //Animace
 
     private Rigidbody2D rb;
     private Collider2D playerCollider;
+
+    bool facingRight = true;
 
     private void Start()
     {
@@ -52,6 +55,15 @@ public class PlayerMovement : MonoBehaviour
 
         Vector2 targetVelocity = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
 
+        if (horizontalInput > 0 && !facingRight) flip();
+        else if (horizontalInput < 0 && facingRight) flip();
+
+
+
+
+
+        animator.SetFloat("speed",Mathf.Abs(horizontalInput)); // Animace pohybu
+
         // Plynulý pøechod mezi aktuální rychlostí a cílovou rychlostí
         rb.velocity = Vector2.Lerp(rb.velocity, targetVelocity, Time.deltaTime * 10f);
     }
@@ -59,5 +71,13 @@ public class PlayerMovement : MonoBehaviour
     private void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce); // Pøidáme vertikální rychlost pro provedení skoku
+    }
+
+    void flip()
+    {
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+        facingRight = !facingRight;
     }
 }
