@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 12859627}
   - component: {fileID: 12859626}
   - component: {fileID: 12859629}
+  - component: {fileID: 12859630}
   m_Layer: 0
   m_Name: jindra
   m_TagString: Untagged
@@ -289,10 +290,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.35967213, y: -0.42495155}
+  m_Offset: {x: 0.027207047, y: 0.079152346}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.7, y: 0.24}
     oldSize: {x: 1.92, y: 1.92}
     newSize: {x: 0.25, y: 0.25}
     adaptiveTilingThreshold: 0.5
@@ -300,7 +301,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.74787676, y: 0.9850087}
+  m_Size: {x: 0.7700823, y: 1.0164976}
   m_EdgeRadius: 0
 --- !u!95 &12859629
 Animator:
@@ -323,6 +324,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &12859630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12859623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734fa04b889b3ba40b5f557e643ddfb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 12859629}
 --- !u!1 &76556371
 GameObject:
   m_ObjectHideFlags: 0
