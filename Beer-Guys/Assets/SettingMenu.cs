@@ -16,31 +16,35 @@ public class SettingMenu : MonoBehaviour
 
     void Start()
     {
-        resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
-        
+
+        Resolution[] resolutions = Screen.resolutions;
         List<string> options = new List<string>();
-        int currentResolutionIndex = 0;
-        for (int i = 0; i < resolutions.Length; i++)
+
+        foreach (Resolution res in resolutions)
         {
-            string option = resolutions[i].width + " x " + resolutions[i].height +
-               " @ " + resolutions[i].refreshRate + "hz";
-            options.Add(option);
-
-            if (resolutions[i].width == Screen.width &&
-                         resolutions[i].height == Screen.height &&
-                         resolutions[i].refreshRate == Screen.currentResolution.refreshRate)
+            if (res.refreshRate == 60)
             {
-                currentResolutionIndex = i;
-
+                string option = res.width + "x" + res.height + " @" + res.refreshRate + "Hz";
+                if (!options.Contains(option))
+                {
+                    options.Add(option);
+                }
             }
         }
+
         resolutionDropdown.AddOptions(options);
-        resolutionDropdown.value = currentResolutionIndex;
-        resolutionDropdown.RefreshShownValue();
     }
 
-    
+    public void SetResolutionFromDropdown(int index)
+    {
+        Resolution[] resolutions = Screen.resolutions;
+        Resolution selectedResolution = resolutions[index];
+
+        Screen.SetResolution(selectedResolution.width, selectedResolution.height, true);
+    }
+
+
     public void SetVolume(float volume)
     {
         audioMixer.SetFloat("volume", volume);
@@ -51,9 +55,9 @@ public class SettingMenu : MonoBehaviour
         QualitySettings.SetQualityLevel(qualityIndex);
     }
 
-    public void SetFullScreen(bool isFullscreen)
+    public void SetFullScreen()
     {
-         Screen.fullScreen=isFullscreen;
+        Screen.fullScreen = !Screen.fullScreen;
     }
 
 }
