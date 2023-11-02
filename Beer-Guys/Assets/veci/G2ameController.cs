@@ -2,16 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : MonoBehaviour
+public class G2ameController : MonoBehaviour
 {
     Vector2 startPos;
-
     private void Start()
     {
         startPos = transform.position;
-
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Spike"))
@@ -19,6 +16,7 @@ public class GameController : MonoBehaviour
             Die();
         }
     }
+
     void Die()
     {
         Respawn();
@@ -26,11 +24,8 @@ public class GameController : MonoBehaviour
 
     void Respawn()
     {
-
-        transform.position = startPos;
+        transform.position= startPos;
     }
-
-
 
 
 
