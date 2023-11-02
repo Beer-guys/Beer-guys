@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
         if (isGrounded && Input.GetButtonDown("Jump")) // Skok pouze pokud stojíme na zemi
         {
             Jump();
+            animator.SetBool("isJumping", true);
         }
     }
 
@@ -79,5 +80,9 @@ public class PlayerMovement : MonoBehaviour
         currentScale.x *= -1;
         gameObject.transform.localScale = currentScale;
         facingRight = !facingRight;
+    }
+    public void OnLanding()
+    {
+        animator.SetBool("isJumping", false);
     }
 }
