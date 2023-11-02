@@ -12,7 +12,7 @@ public class HealthBarScript : MonoBehaviour
     public void DrawHearts()
     {
         ClearHearts();
-        float maxHealtRemainder
+        
     }
 
 
