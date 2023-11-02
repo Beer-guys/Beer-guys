@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-        animator.SetFloat("speed",Mathf.Abs(horizontalInput)); // Animace pohybu
+        animator.SetFloat("speed", Mathf.Abs(horizontalInput)); // Animace pohybu
 
         // Plynulý pøechod mezi aktuální rychlostí a cílovou rychlostí
         rb.velocity = Vector2.Lerp(rb.velocity, targetVelocity, Time.deltaTime * 10f);
