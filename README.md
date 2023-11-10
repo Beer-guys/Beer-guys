@@ -19,7 +19,10 @@ Lezení po stěně - Spamování mezerníku
 
 Útok - K
 
+
 Stopnutí hry - Esc
+
+---------------------------------------------
 
 1) Otevři hru Beer-Guys.exe
 2) Klikni PLAY
