@@ -10,9 +10,13 @@ Programátor - Adam Čermák - cermaka.05@spst.eu
 Ovládání:
 
 chůze vpravo - D
+
 chůze vlevo - A
+
 Skok - Mezerník
+
 Lezení po stěně - Spamování mezerníku
+
 Útok - K
 
 Stopnutí hry - Esc
