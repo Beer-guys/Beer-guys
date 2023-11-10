@@ -1,7 +1,10 @@
 # Beer-guys
 Projektový Manažer - Petr Eliáš - eliasp.06@spst.eu
+
 Grafik - Lukáš Hájek - hajekl.06@spst.eu
+
 Programátor - Adam Čermák - cermaka.05@spst.eu
+
 ---------------------------------------------
 
 Ovládání:
